@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#9D6DC8;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2D1B4E;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#glow)" stroke="url(#grad)" stroke-width="2"/>
+  
+  <!-- Crystal ball / orb -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="url(#grad)" stroke-width="2"/>
+  
+  <!-- Inner glow -->
+  <circle cx="50" cy="50" r="25" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Star in center -->
+  <path d="M50 30 L53 44 L67 44 L56 53 L60 67 L50 58 L40 67 L44 53 L33 44 L47 44 Z" 
+        fill="url(#grad)"/>
+  
+  <!-- Small stars -->
+  <circle cx="35" cy="35" r="2" fill="#D4AF37" opacity="0.7"/>
+  <circle cx="65" cy="35" r="1.5" fill="#D4AF37" opacity="0.5"/>
+  <circle cx="70" cy="55" r="1" fill="#D4AF37" opacity="0.6"/>
+</svg>

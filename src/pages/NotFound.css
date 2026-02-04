@@ -1,0 +1,33 @@
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found-emoji {
+  font-size: 6rem;
+  display: block;
+  margin-bottom: 2rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.not-found h1 {
+  color: var(--gold-main);
+  margin-bottom: 1rem;
+}
+
+.not-found p {
+  color: var(--text-muted);
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.not-found-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
