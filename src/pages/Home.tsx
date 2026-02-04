@@ -2,6 +2,24 @@ import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { ciganaCards } from '../data/cards'
 import { getRecentPosts } from '../data/blogPosts'
+import {
+  SparklesIcon,
+  MoonIcon,
+  StarIcon,
+  HeartIcon,
+  EnergyIcon,
+  GlowStarIcon,
+  TargetIcon,
+  LockIcon,
+  FiveStarsIcon,
+  BookIcon,
+  BriefcaseIcon,
+  BrainIcon,
+  ClockIcon,
+  ReadIcon,
+  KeyIcon,
+  CardIcon,
+} from '../components/MysticIcons'
 import './Home.css'
 
 export default function Home() {
@@ -46,7 +64,7 @@ export default function Home() {
         
         <div className="container hero-content">
           <div className="hero-badge">
-            <span>✨</span> Novo: IA + Tradição Cigana
+            <SparklesIcon size={18} /> Novo: IA + Tradição Cigana
           </div>
           
           <h1 className="hero-title">
@@ -66,16 +84,16 @@ export default function Home() {
               <span className="coming-soon">Em Breve</span>
             </button>
             <Link to="/blog" className="btn btn-secondary btn-lg">
-              📚 Aprender Baralho Cigano
+              <BookIcon size={20} /> Aprender Baralho Cigano
             </Link>
           </div>
           
           <div className="hero-cards">
-            <div className="floating-card card-1">🌙</div>
-            <div className="floating-card card-2">⭐</div>
+            <div className="floating-card card-1"><MoonIcon size={28} /></div>
+            <div className="floating-card card-2"><StarIcon size={28} /></div>
             <div className="floating-card card-3">🔮</div>
-            <div className="floating-card card-4">❤️</div>
-            <div className="floating-card card-5">🗝️</div>
+            <div className="floating-card card-4"><HeartIcon size={28} /></div>
+            <div className="floating-card card-5"><KeyIcon size={28} /></div>
           </div>
         </div>
       </section>
@@ -91,7 +109,7 @@ export default function Home() {
           
           <div className="services-grid">
             <div className="service-card">
-              <div className="service-icon">🎴</div>
+              <div className="service-icon"><CardIcon size={32} /></div>
               <h3>Tiragem Completa</h3>
               <p>Análise profunda com as 36 cartas do Baralho Cigano. Visão ampla do passado, presente e futuro.</p>
               <button className="btn btn-secondary" disabled>Em Breve</button>
@@ -99,28 +117,28 @@ export default function Home() {
             
             <div className="service-card featured">
               <div className="service-badge">Mais Popular</div>
-              <div className="service-icon">❤️</div>
+              <div className="service-icon"><HeartIcon size={32} /></div>
               <h3>Consulta de Amor</h3>
               <p>Descubra o que as cartas revelam sobre seu coração. Relacionamentos, paixões e caminhos do amor.</p>
               <button className="btn btn-primary" disabled>Em Breve</button>
             </div>
             
             <div className="service-card">
-              <div className="service-icon">💼</div>
+              <div className="service-icon"><BriefcaseIcon size={32} /></div>
               <h3>Carreira e Trabalho</h3>
               <p>Orientação profissional através das cartas. Decisões de carreira, negócios e prosperidade.</p>
               <button className="btn btn-secondary" disabled>Em Breve</button>
             </div>
             
             <div className="service-card">
-              <div className="service-icon">⚡</div>
+              <div className="service-icon"><EnergyIcon size={32} /></div>
               <h3>Sim ou Não</h3>
               <p>Respostas diretas para suas perguntas mais urgentes. Uma carta, uma resposta.</p>
               <button className="btn btn-secondary" disabled>Em Breve</button>
             </div>
             
             <div className="service-card">
-              <div className="service-icon">🌟</div>
+              <div className="service-icon"><GlowStarIcon size={32} /></div>
               <h3>Carta do Dia</h3>
               <p>Receba uma mensagem diária personalizada para guiar seu dia com sabedoria.</p>
               <button className="btn btn-secondary" disabled>Em Breve</button>
@@ -150,28 +168,28 @@ export default function Home() {
               
               <ul className="features-list">
                 <li>
-                  <span className="feature-icon">🧠</span>
+                  <span className="feature-icon"><BrainIcon size={28} /></span>
                   <div>
                     <strong>IA Especializada</strong>
                     <p>Treinada em milhares de interpretações tradicionais</p>
                   </div>
                 </li>
                 <li>
-                  <span className="feature-icon">🎯</span>
+                  <span className="feature-icon"><TargetIcon size={28} /></span>
                   <div>
                     <strong>Personalização Total</strong>
                     <p>Respostas adaptadas ao seu contexto específico</p>
                   </div>
                 </li>
                 <li>
-                  <span className="feature-icon">🔒</span>
+                  <span className="feature-icon"><LockIcon size={28} /></span>
                   <div>
                     <strong>100% Privado</strong>
                     <p>Suas consultas são confidenciais e seguras</p>
                   </div>
                 </li>
                 <li>
-                  <span className="feature-icon">⏰</span>
+                  <span className="feature-icon"><ClockIcon size={28} /></span>
                   <div>
                     <strong>Disponível 24/7</strong>
                     <p>Consulte a qualquer momento, de qualquer lugar</p>
@@ -239,7 +257,7 @@ export default function Home() {
           
           <div className="testimonials-grid">
             <div className="testimonial">
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              <div className="testimonial-stars"><FiveStarsIcon size={90} /></div>
               <p>"Impressionante como a leitura capturou exatamente o que eu estava vivendo. Nunca vi uma IA tão precisa."</p>
               <div className="testimonial-author">
                 <span className="author-avatar">M</span>
@@ -251,7 +269,7 @@ export default function Home() {
             </div>
             
             <div className="testimonial">
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              <div className="testimonial-stars"><FiveStarsIcon size={90} /></div>
               <p>"O baralho cigano sempre me fascinou, mas nunca achei um lugar tão acessível e bem explicado."</p>
               <div className="testimonial-author">
                 <span className="author-avatar">R</span>
@@ -263,7 +281,7 @@ export default function Home() {
             </div>
             
             <div className="testimonial">
-              <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
+              <div className="testimonial-stars"><FiveStarsIcon size={90} /></div>
               <p>"As interpretações são profundas e respeitam a tradição cigana. Recomendo muito!"</p>
               <div className="testimonial-author">
                 <span className="author-avatar">A</span>
@@ -290,14 +308,14 @@ export default function Home() {
             {recentPosts.map(post => (
               <Link to={`/blog/${post.slug}`} key={post.id} className="blog-card">
                 <div className="blog-card-img">
-                  <span>🎴</span>
+                  <CardIcon size={48} />
                 </div>
                 <div className="blog-card-content">
                   <span className="blog-card-category">{post.category}</span>
                   <h3>{post.title}</h3>
                   <p>{post.excerpt}</p>
                   <span className="blog-card-meta">
-                    📖 {post.readTime} min de leitura
+                    <ReadIcon size={16} /> {post.readTime} min de leitura
                   </span>
                 </div>
               </Link>
@@ -416,11 +434,11 @@ export default function Home() {
             <form className="cta-form" onSubmit={(e) => e.preventDefault()}>
               <input type="email" placeholder="Seu melhor e-mail" />
               <button type="submit" className="btn btn-primary">
-                Quero Acesso VIP ✨
+                Quero Acesso VIP <SparklesIcon size={18} />
               </button>
             </form>
             <p className="cta-note">
-              🔒 Prometemos não enviar spam. Só coisas boas!
+              <LockIcon size={16} /> Prometemos não enviar spam. Só coisas boas!
             </p>
           </div>
         </div>
