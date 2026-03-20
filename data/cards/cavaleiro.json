@@ -1,0 +1,13 @@
+{
+  "number": 1,
+  "name": "O Cavaleiro",
+  "keywords": ["mensageiro", "notícias", "movimento", "visita", "jovem"],
+  "core_meaning": "Representa notícias, mensagens ou a chegada de alguém. Indica movimento, viagem ou comunicação rápida.",
+  "combinations": {
+    "com_casa": "Notícias de casa ou família",
+    "com_coracao": "Notícias de amor, mensagem romântica",
+    "com_anel": "Notícias de compromisso ou contrato"
+  },
+  "advice": "Fique atento às mensagens que chegam. Algo novo está a caminho.",
+  "warning": "Pode indicar fofoca ou notícias superficiais"
+}

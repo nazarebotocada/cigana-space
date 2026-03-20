@@ -1,0 +1,13 @@
+{
+  "number": 3,
+  "name": "O Navio",
+  "keywords": ["viagem", "comércio", "negócios", "transporte", "importação"],
+  "core_meaning": "Viagem, especialmente longa. Negócios à distância, comércio, transporte de bens.",
+  "combinations": {
+    "com_estrela": "Viagem bem-sucedida, destino favorável",
+    "com_dinheiro": "Lucros de viagem, comércio internacional",
+    "com_montanha": "Viagem com obstáculos ou adiada"
+  },
+  "advice": "Prepare-se para mudanças de lugar. Negócios podem trazer lucros.",
+  "warning": "Pode indicar fuga ou evasão de responsabilidades"
+}

@@ -1,0 +1,11 @@
+name = "cigana-readers"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "out"
+
+[[kv_namespaces]]
+binding = "MEMORY_KV"
+id = "will-create-on-deploy"
+
+[[kv_namespaces]]
+binding = "CARDS_KV"
+id = "will-create-on-deploy"

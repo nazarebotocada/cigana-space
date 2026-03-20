@@ -1,0 +1,13 @@
+{
+  "number": 2,
+  "name": "O Trevo",
+  "keywords": ["sorte", "oportunidade", "esperança", "pequena fortuna"],
+  "core_meaning": "Sorte pequena, oportunidades inesperadas, momento favorável mas passageiro.",
+  "combinations": {
+    "com_sol": "Sorte grande, sucesso garantido",
+    "com_lua": "Sorte no amor, intuição favorável",
+    "com_nuvem": "Sorte mista, oportunidades com obstáculos"
+  },
+  "advice": "Aproveite as oportunidades que surgem agora. A sorte está ao seu lado.",
+  "warning": "Não dependa apenas da sorte - aja enquanto o momento é favorável"
+}
